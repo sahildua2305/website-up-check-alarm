@@ -9,7 +9,7 @@ while(1):
     if len(response.content) != 231: # since SPOJ website is down for maintenance, so HTTP request will not show any error code but it will return the content of the webpage. The length of webpage content when it's not UP is 231, that's what I used here.
         # 1st argument - frequency of the sound
         # 2nd argument - number of milliseconds that sound will be played
-        winsound.Beep(200,5000)
+        winsound.Beep(100,1000)
         print "Number of times checked: "+str(count)
         break # stop sending GET requests once the website is up
     print "Number of times checked: "+str(count)
