@@ -1,4 +1,4 @@
-import requests # module for making HTTP request to SPOJ website
+import requests # module for making HTTP request to the SPOJ website
 import winsound # module for making beep like noise once website is up
 from time import sleep # module for putting a desired delay to reduce load on computer system
 
